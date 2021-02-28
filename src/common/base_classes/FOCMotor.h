@@ -1,10 +1,12 @@
 #ifndef FOCMOTOR_H
 #define FOCMOTOR_H
 
-#include "Arduino.h"
+//#include "Arduino.h"
 #include "Sensor.h"
 #include "BLDCDriver.h"
 
+#include "../WString.h"
+#include "../Print.h"
 #include "../time_utils.h"
 #include "../foc_utils.h"
 #include "../defaults.h"

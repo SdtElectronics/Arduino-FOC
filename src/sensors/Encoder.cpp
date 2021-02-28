@@ -1,3 +1,6 @@
+#include "../common/arduinoDefs.h"
+
+#include "../drivers/peripheral_api.h"
 #include "Encoder.h"
 
 

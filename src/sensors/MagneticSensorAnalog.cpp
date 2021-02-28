@@ -1,3 +1,6 @@
+#include "../common/arduinoDefs.h"
+
+#include "../drivers/peripheral_api.h"
 #include "MagneticSensorAnalog.h"
 
 /** MagneticSensorAnalog(uint8_t _pinAnalog, int _min, int _max)

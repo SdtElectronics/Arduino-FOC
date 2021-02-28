@@ -1,3 +1,6 @@
+//#include <math.h>
+#include "../common/arduinoDefs.h"
+#include "peripheral_api.h"
 #include "StepperDriver4PWM.h"
 
 StepperDriver4PWM::StepperDriver4PWM(int ph1A,int ph1B,int ph2A,int ph2B,int en1, int en2){

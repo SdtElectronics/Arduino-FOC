@@ -1,3 +1,5 @@
+#include "../common/arduinoDefs.h"
+
 #include "StepperMotor.h"
 
 // StepperMotor( int phA, int phB, int phC, int pp, int cpr, int en)

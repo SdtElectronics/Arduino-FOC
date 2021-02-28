@@ -1,5 +1,27 @@
 #include "time_utils.h"
 
+#ifdef __ARDUINO__
+
+#include "Arduino.h"
+
+#else
+
+//These functions should be implemented according to your platform
+
+void delay(unsigned long ms){
+
+}
+
+void delayMicroseconds(unsigned int us){
+
+}
+
+unsigned long micros(){
+
+}
+
+#endif
+
 // function buffering delay() 
 // arduino uno function doesn't work well with interrupts
 void _delay(unsigned long ms){

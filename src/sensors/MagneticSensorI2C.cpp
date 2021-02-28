@@ -1,3 +1,7 @@
+#include <math.h>
+
+#include "../drivers/wire_api.h"
+#include "../drivers/peripheral_api.h"
 #include "MagneticSensorI2C.h"
 
 /** Typical configuration for the 12bit AMS AS5600 magnetic sensor over I2C interface */
@@ -199,7 +203,7 @@ int MagneticSensorI2C::checkBus(byte sda_pin, byte scl_pin) {
 
   pinMode(scl_pin, INPUT_PULLUP);
   pinMode(sda_pin, INPUT_PULLUP);
-  delay(250);  
+  _delay(250);  
 
   if (digitalRead(scl_pin) == LOW) {
     // Someone else has claimed master!");

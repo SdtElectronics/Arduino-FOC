@@ -1,5 +1,15 @@
 #include "FOCMotor.h"
 
+/*
+#define print(X) _Generic((X),           \
+                          const char *   \
+                          : _printStr,   \
+                            float        \
+                          : _printFloat, \
+                            default      \
+                          : _printStr)(X)
+*/
+
 /**
  * Default constructor - setting all variabels to default values
  */

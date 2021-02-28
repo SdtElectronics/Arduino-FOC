@@ -1,3 +1,4 @@
+#include "peripheral_api.h"
 #include "BLDCDriver3PWM.h"
 
 BLDCDriver3PWM::BLDCDriver3PWM(int phA, int phB, int phC, int en){

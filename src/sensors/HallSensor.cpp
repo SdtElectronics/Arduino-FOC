@@ -1,3 +1,4 @@
+#include "peripheral_api.h"
 #include "HallSensor.h"
 
 

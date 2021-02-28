@@ -1,3 +1,6 @@
+#include <math.h>
+
+#include "./common/arduinoDefs.h"
 #include "BLDCMotor.h"
 
 // // BLDCMotor( int phA, int phB, int phC, int pp, int cpr, int en)

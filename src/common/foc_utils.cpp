@@ -1,4 +1,5 @@
 #include "foc_utils.h"
+#include <math.h>
 
 // int array instead of float array 
 // 2x storage save (int 2Byte float 4 Byte )

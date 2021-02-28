@@ -3,6 +3,16 @@
 
 #include "foc_utils.h"
 
+#ifdef __ARDUINO__
+
+#include "Arduino.h"
+
+#else
+
+void delayMicroseconds(unsigned int us);
+
+#endif
+
 /** 
  * Function implementing delay() function in milliseconds 
  * - blocking function

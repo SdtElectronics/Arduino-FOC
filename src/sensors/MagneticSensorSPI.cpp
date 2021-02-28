@@ -1,3 +1,8 @@
+#include <math.h>
+#include "../drivers/peripheral_api.h"
+#include "../drivers/SPI_api.h"
+
+#include "../common/arduinoDefs.h"
 #include "MagneticSensorSPI.h"
 
 /** Typical configuration for the 14bit AMS AS5147 magnetic sensor over SPI interface */
